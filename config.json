@@ -1,0 +1,27 @@
+{
+  "default_language": "swedish",
+  "default_model": "gpt-4o",
+  "save_history": true,
+  "enable_export": true,
+  "theme": "light",
+  "max_tokens": 2000,
+  "temperature": 0.7,
+  "system": {
+    "version": "1.0.0",
+    "name": "Juridiskt AI-system",
+    "created": "2025-05-06",
+    "updated": "2025-05-06"
+  },
+  "features": {
+    "juridisk_fraga": true,
+    "dokumentgenerering": true,
+    "dokumentanalys": true,
+    "prejudikatanalys": true
+  },
+  "paths": {
+    "logs": "logs",
+    "exports": "exports",
+    "uploads": "uploads",
+    "templates": "templates"
+  }
+}

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250506
+DESCRIPTION:\nRiskprofil: Hög\nPrejudikatläge: Låg\nDokumentstatus: under arbete\nKommentar: Saknar svar på kommunikation\nRekommenderad åtgärd: Sök inhibition\nHandläggare: Ali Habibpoor\n
+SUMMARY:Mål SKD-04-2025 – Sök inhibition
+UID:100b1b91-21aa-4d06-9c52-41ab1b5f73c3@100b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250505
+DESCRIPTION:\nRiskprofil: Hög\nPrejudikatläge: Hög\nDokumentstatus: saknas\nKommentar: Läkarintyg saknas\nRekommenderad åtgärd: Komplettera bevis\nHandläggare: Ali Habibpoor\n
+SUMMARY:Mål T1456-23 – Komplettera bevis
+UID:f1142c1d-8199-4d6a-acf6-0cb7f103799e@f114.org
+END:VEVENT
+END:VCALENDAR

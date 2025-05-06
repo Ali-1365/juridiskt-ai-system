@@ -1,0 +1,37 @@
+modules = ["python-3.11", "postgresql-16"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["cairo", "cargo", "ffmpeg-full", "file", "fontconfig", "freetype", "ghostscript", "glib", "glibcLocales", "gobject-introspection", "gtk3", "gumbo", "harfbuzz", "jbig2dec", "lcms2", "libiconv", "libimagequant", "libjpeg", "libjpeg_turbo", "libtiff", "libwebp", "libxcrypt", "mupdf", "openjpeg", "pango", "pkg-config", "poppler_utils", "qhull", "rustc", "swig", "tcl", "tesseract", "tk", "xcbuild", "zlib"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Juridiskt AI System"
+
+[[workflows.workflow]]
+name = "Juridiskt AI System"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "streamlit run main.py --server.port=5000 --server.address=0.0.0.0"
+waitForPort = 5000
+
+[deployment]
+run = ["sh", "-c", "streamlit run streamlit_app.py --server.port=5000 --server.address=0.0.0.0"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[objectStorage]
+defaultBucketID = "replit-objstore-6f339ad2-ddd4-4b5f-822e-7c9de9a0291f"

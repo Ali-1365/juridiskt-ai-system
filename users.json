@@ -1,0 +1,14 @@
+{
+    "domare01": {
+        "password": "$2b$12$QzSc/nJGBpfhEGpLQT03W.x2PWkrFtZBPuoA6j1L01RCO7WV1Gkwe",
+        "role": "Domare"
+    },
+    "ombud01": {
+        "password": "$2b$12$QzSc/nJGBpfhEGpLQT03W.x2PWkrFtZBPuoA6j1L01RCO7WV1Gkwe",
+        "role": "Ombud"
+    },
+    "admin01": {
+        "password": "$2b$12$QzSc/nJGBpfhEGpLQT03W.x2PWkrFtZBPuoA6j1L01RCO7WV1Gkwe",
+        "role": "Admin"
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "argument": [
+    {
+      "typ": "proportionalitet",
+      "viktighet": "primär"
+    },
+    {
+      "typ": "formalia",
+      "viktighet": "stödjande"
+    }
+  ],
+  "bevisning": [
+    {
+      "typ": "dokument",
+      "relevans": "exakt",
+      "autenticitet": "original"
+    },
+    {
+      "typ": "intyg",
+      "relevans": "stödjande",
+      "autenticitet": "kopia"
+    }
+  ],
+  "process": {
+    "fas": "överklagande",
+    "tidsrisk": "brådska"
+  }
+}
